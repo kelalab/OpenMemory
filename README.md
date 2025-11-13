@@ -730,6 +730,13 @@ make test
                     <sub><b>Lawrence Sinclair</b></sub>
                 </a>
             </td>
+            <td align="center">
+                <a href="https://github.com/Timizki">
+                    <img src="https://avatars.githubusercontent.com/u/1807557?v=4" width="100;" alt="Timizki"/>
+                    <br />
+                    <sub><b>Timo Paananen</b></sub>
+                </a>
+            </td>
 		</tr>
 	<tbody>
 </table>
