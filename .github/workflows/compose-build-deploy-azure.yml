@@ -24,12 +24,9 @@ jobs:
 
       # Build dashboard Docker-image
       - name: Build and push dashboard image
-        uses: docker/build-push-action@v6
-        with:
-          compose-file: docker-compose.xml
-          push: true
-          tags: ${{ secrets.ACR_LOGIN_SERVER }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
-
+        run: |
+          docker compose build
+          docker compose push
       # Deploy Web App
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
