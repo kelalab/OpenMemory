@@ -737,6 +737,13 @@ make test
                     <sub><b>Lawrence Sinclair</b></sub>
                 </a>
             </td>
+            <td align="center">
+                <a href="https://github.com/mimyllyvk">
+                    <img src="https://avatars.githubusercontent.com/u/117351691?v=4" width="100;" alt="mimyllyvk"/>
+                    <br />
+                    <sub><b>mimyllyvk</b></sub>
+                </a>
+            </td>
 		</tr>
 	<tbody>
 </table>
