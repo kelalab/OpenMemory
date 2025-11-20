@@ -671,14 +671,21 @@ make test
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/mimyllyvk">
+                    <img src="https://avatars.githubusercontent.com/u/117351691?v=4" width="100;" alt="mimyllyvk"/>
+                    <br />
+                    <sub><b>mimyllyvk</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
                 <a href="https://github.com/DoKoB0512">
                     <img src="https://avatars.githubusercontent.com/u/123281216?v=4" width="100;" alt="DoKoB0512"/>
                     <br />
                     <sub><b>DoKoB0512</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/amihos">
                     <img src="https://avatars.githubusercontent.com/u/35190548?v=4" width="100;" alt="amihos"/>
@@ -714,6 +721,8 @@ make test
                     <sub><b>Brett Ammeson</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/Dhravya">
                     <img src="https://avatars.githubusercontent.com/u/63950637?v=4" width="100;" alt="Dhravya"/>
@@ -721,8 +730,6 @@ make test
                     <sub><b>Dhravya Shah</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/josephgoksu">
                     <img src="https://avatars.githubusercontent.com/u/6523823?v=4" width="100;" alt="josephgoksu"/>
@@ -735,13 +742,6 @@ make test
                     <img src="https://avatars.githubusercontent.com/u/2829939?v=4" width="100;" alt="lwsinclair"/>
                     <br />
                     <sub><b>Lawrence Sinclair</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/mimyllyvk">
-                    <img src="https://avatars.githubusercontent.com/u/117351691?v=4" width="100;" alt="mimyllyvk"/>
-                    <br />
-                    <sub><b>mimyllyvk</b></sub>
                 </a>
             </td>
 		</tr>
