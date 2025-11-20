@@ -121,6 +121,16 @@ services:
       timeout: 10s
       retries: 3
       start_period: 30s
+  openmemory-dashboard:
+    build:
+      context: ./dashboard
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    environment:
+      # Core Configuration
+      - NEXT_PUBLIC_API_KEY=${NEXT_PUBLIC_API_KEY:-none}
+      - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL:-localhost:8080}
 
 volumes:
   openmemory_data:
