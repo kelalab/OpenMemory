@@ -1,3 +1,5 @@
+# Commented few steps :) - Do not build and run dev to be able to read environment variables at runtime
+
 # Stage 1 — buildaa Next.js-dashin
 FROM node:22-alpine AS builder
 
@@ -14,24 +16,25 @@ RUN npm ci
 COPY . .
 
 # Rakenna tuotantoversio
-RUN npm run build
+#RUN npm run build
 
 # Poista dev-depsit, jotta runtime on kevyt
-RUN npm prune --omit=dev
+#RUN npm prune --omit=dev
 
 
 # Stage 2 — runtime-image
-FROM node:22-alpine
+#FROM builder
 
-WORKDIR /app
+#WORKDIR /app
 
 ENV NODE_ENV=production
 ENV PORT=3000
 
 # Kopioi rakennettu appi ja prod-riippuvuudet builderista
-COPY --from=builder /app ./
+#COPY --from=builder /app ./
 
 EXPOSE 3000
 
 # Käynnistä Next.js tuotantomoodissa
-CMD ["npm", "start"]
+#CMD ["npm", "start"]
+CMD ["npm", "run", "dev"]
