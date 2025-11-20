@@ -657,6 +657,13 @@ make test
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/mimyllyvk">
+                    <img src="https://avatars.githubusercontent.com/u/117351691?v=4" width="100;" alt="mimyllyvk"/>
+                    <br />
+                    <sub><b>mimyllyvk</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/msris108">
                     <img src="https://avatars.githubusercontent.com/u/43115330?v=4" width="100;" alt="msris108"/>
                     <br />
@@ -668,13 +675,6 @@ make test
                     <img src="https://avatars.githubusercontent.com/u/1807557?v=4" width="100;" alt="Timizki"/>
                     <br />
                     <sub><b>Timo Paananen</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/mimyllyvk">
-                    <img src="https://avatars.githubusercontent.com/u/117351691?v=4" width="100;" alt="mimyllyvk"/>
-                    <br />
-                    <sub><b>mimyllyvk</b></sub>
                 </a>
             </td>
 		</tr>
